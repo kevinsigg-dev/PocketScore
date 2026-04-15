@@ -1,7 +1,7 @@
-public class PlayerCard {
-    import java.util.Random;
+import java.util.Random;
 
-    public class PlayerCard {
+public class PlayerCard {
+
 
         private String name;
         private String position;

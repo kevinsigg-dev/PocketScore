@@ -1,7 +1,11 @@
-public class Club {
-
 import java.util.ArrayList;
 import java.util.Random;
+
+public class Club {
+
+
+    }import ArrayList;
+     import java.util.Random;
 
     public class Club {
 
@@ -100,25 +104,25 @@ import java.util.Random;
             squad.add(new PlayerCard("Curtis Jones", "Midfielder", 60));
 
             squad.add(new PlayerCard("Mohamed Salah", "Striker", 70));
-            squad.add(new PlayerCard("Darwin Nunez", "Striker", 70));
-            squad.add(new PlayerCard("Luis Diaz", "Striker", 70));
+            squad.add(new PlayerCard("Hugo Ekitiké", "Striker", 70));
+            squad.add(new PlayerCard("Florian Wirtz", "Striker", 70));
         }
 
         private void createStuttgartSquad() {
 
             squad.add(new PlayerCard("Alexander Nubel", "Goalkeeper", 0));
 
-            squad.add(new PlayerCard("Waldemar Anton", "Defender", 40));
-            squad.add(new PlayerCard("Hiroki Ito", "Defender", 40));
-            squad.add(new PlayerCard("Dan-Axel Zagadou", "Defender", 40));
+            squad.add(new PlayerCard("Josha Vagnoman", "Defender", 40));
+            squad.add(new PlayerCard("Jedd Chabot", "Defender", 40));
+            squad.add(new PlayerCard("Ramon Hendriks", "Defender", 40));
             squad.add(new PlayerCard("Maximilian Mittelstadt", "Defender", 40));
 
             squad.add(new PlayerCard("Angelo Stiller", "Midfielder", 60));
             squad.add(new PlayerCard("Chris Fuhrich", "Midfielder", 60));
-            squad.add(new PlayerCard("Enzo Millot", "Midfielder", 60));
+            squad.add(new PlayerCard("Jamie Leweling", "Midfielder", 60));
 
             squad.add(new PlayerCard("Deniz Undav", "Striker", 70));
-            squad.add(new PlayerCard("Serhou Guirassy", "Striker", 70));
-            squad.add(new PlayerCard("Jamie Leweling", "Striker", 70));
+            squad.add(new PlayerCard("El Khanouss", "Striker", 70));
+            squad.add(new PlayerCard("Ermedin Demirovic", "Striker", 70));
         }
     }
