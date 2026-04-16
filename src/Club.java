@@ -5,6 +5,9 @@ import java.util.Random;
 
         private String name;
         private ArrayList<PlayerCard> squad;
+        public static final String RED = "\u001B[31m";
+        public static final String GREEN = "\u001B[32m";
+        public static final String RESET = "\u001B[0m";
 
         public Club(String name) {
             this.name = name;
@@ -71,7 +74,7 @@ import java.util.Random;
             squad.add(new PlayerCard("Thibaut Courtois", "Goalkeeper", 0));
 
             squad.add(new PlayerCard("Dani Carvajal", "Defender", 40));
-            squad.add(new PlayerCard("Antonio Rudiger", "Defender", 40));
+            squad.add(new PlayerCard("Antonio Rüdiger", "Defender", 40));
             squad.add(new PlayerCard("David Alaba", "Defender", 40));
             squad.add(new PlayerCard("Ferland Mendy", "Defender", 40));
 
@@ -107,12 +110,12 @@ import java.util.Random;
             squad.add(new PlayerCard("Alexander Nubel", "Goalkeeper", 0));
 
             squad.add(new PlayerCard("Josha Vagnoman", "Defender", 40));
-            squad.add(new PlayerCard("Jedd Chabot", "Defender", 40));
+            squad.add(new PlayerCard("Jeff Chabot", "Defender", 40));
             squad.add(new PlayerCard("Ramon Hendriks", "Defender", 40));
-            squad.add(new PlayerCard("Maximilian Mittelstadt", "Defender", 40));
+            squad.add(new PlayerCard("Maximilian Mittelstädt", "Defender", 40));
 
             squad.add(new PlayerCard("Angelo Stiller", "Midfielder", 60));
-            squad.add(new PlayerCard("Chris Fuhrich", "Midfielder", 60));
+            squad.add(new PlayerCard("Chris Führich", "Midfielder", 60));
             squad.add(new PlayerCard("Jamie Leweling", "Midfielder", 60));
 
             squad.add(new PlayerCard("Deniz Undav", "Striker", 70));

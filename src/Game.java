@@ -5,6 +5,9 @@ public class Game {
 
             private Player player1;
             private Player player2;
+    public static final String RED = "\u001B[31m";
+    public static final String GREEN = "\u001B[32m";
+    public static final String RESET = "\u001B[0m";
 
             public void startGame() {
 
@@ -17,10 +20,10 @@ public class Game {
                 String name2 = scanner.nextLine();
 
                 System.out.println("Verein für Spieler 1 wählen:");
-                System.out.println("1 - FC Bayern");
-                System.out.println("2 - Real Madrid");
-                System.out.println("3 - Liverpool FC");
-                System.out.println("4 - VfB Stuttgart");
+                System.out.println(RED + "1 " + "FC Bayern" + RESET);
+                System.out.println(RED + "2 " + "Real Madrid" + RESET);
+                System.out.println(RED + "3 " + "Liverpool FC" + RESET);
+                System.out.println(RED + "4 " + "VfB Stuttgart" + RESET);
 
                 int choice1 = scanner.nextInt();
                 Club club1 = createClub(choice1);
@@ -82,11 +85,11 @@ public class Game {
 
                     player.scoreGoal();
 
-                    System.out.println("TOOOR!!!");
+                    System.out.println(RED + "TOOOR!!!" + RESET);
 
                 } else {
 
-                    System.out.println("Kein Tor.");
+                    System.out.println(RED + "Kein Tor." + RESET);
                 }
             }
 
