@@ -1,12 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Club {
-
-
-    }import ArrayList;
-     import java.util.Random;
-
     public class Club {
 
         private String name;
@@ -59,7 +53,7 @@ public class Club {
             squad.add(new PlayerCard("Manuel Neuer", "Goalkeeper", 0));
 
             squad.add(new PlayerCard("Alphonso Davies", "Defender", 40));
-            squad.add(new PlayerCard("Min-jae Kim", "Defender", 40));
+            squad.add(new PlayerCard("Josip Stanisic", "Defender", 40));
             squad.add(new PlayerCard("Dayot Upamecano", "Defender", 40));
             squad.add(new PlayerCard("Jonathan Tah", "Defender", 40));
 

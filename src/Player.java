@@ -1,7 +1,5 @@
 public class Player {
 
-    public class Player {
-
         private String name;
         private Club club;
         private int goals;

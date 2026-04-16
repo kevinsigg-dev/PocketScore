@@ -3,13 +3,7 @@ import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-
-       import java.util.Random;
-import java.util.Scanner;
-
-        public class Game {
+public class Game {
 
             private Player player1;
             private Player player2;
@@ -65,7 +59,7 @@ import java.util.Scanner;
                     currentPlayer = player2;
                 }
 
-                System.out.println(currentPlayer.getName() + " beginnt!");
+                System.out.println(currentPlayer.getName() + " hat Anspiel!");
 
                 for(int round = 1; round <= 6; round++) {
 
@@ -82,13 +76,15 @@ import java.util.Scanner;
 
                 PlayerCard shooter = player.shoot();
 
-                System.out.println(player.getName() + " hat Ballbesitz!   " + shooter.getName()) + "dringt in den Strafraum ein und schießt!";
+                System.out.println(player.getName() + " hat Ballbesitz!   " + shooter.getName() + " dringt in den Strafraum ein und schießt!");
+
+                waitForEnter();
 
                 if(shooter.attemptGoal()) {
 
                     player.scoreGoal();
 
-                    System.out.println("TOR!!!");
+                    System.out.println("TOOOR!!!");
 
                 } else {
 
@@ -116,6 +112,14 @@ import java.util.Scanner;
                     System.out.println("Unentschieden!");
                 }
             }
+
+    private void waitForEnter() {
+
+        System.out.println("\nDrücke ENTER um fortzufahren...");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+    }
 
             public static void main(String[] args) {
 
